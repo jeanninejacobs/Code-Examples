@@ -1,0 +1,42 @@
+
+JQuery Example (3) 
+
+Move Event
+
+Script.JS
+
+$(document).ready(function() {
+    $(document).keydown(function(key) {
+        switch(parseInt(key.which,10)) {
+			case 65:
+				$('img').animate({left: "-=10px"}, 'fast');
+				break;
+			case 83:
+				$('img').animate({top: "+=10px"}, 'fast');
+				break;
+			case 87:
+				$('img').animate({top: "-=10px"}, 'fast');
+				break;
+			case 68:
+				$('img').animate({left: "+=10px"}, 'fast');
+				break;
+			default:
+				break;
+		}
+	});
+});
+
+INDEX.JS
+
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>Super Mario!</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+		<script type='text/javascript' src='script.js'></script>
+	</head>
+	<body>
+        <img src="http://i1061.photobucket.com/albums/t480/ericqweinstein/mario.jpg"/>
+	</body>
+</html>
+

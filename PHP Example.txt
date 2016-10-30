@@ -1,0 +1,78 @@
+Jeannine Jacobs
+PHP Example
+Codecademy.com
+
+INDEX.PHP
+
+<html>
+  <head>
+    <title>I am the King of Arrays!</title>
+  </head>
+  <body>
+    <p>
+      <?php
+      // On the line below, create your own associative array:
+$myArray = array ('Rubies', 'Emeralds', 'Sapphires');
+
+      // On the line below, output one of the values to the page:
+     echo $myArray[1];
+          
+      // On the line below, loop through the array and output
+      // *all* of the values to the page:
+     $length = count($myArray);
+     for ($i=0; $i<$length; $i++){
+         echo '<br />', $myArray[$i] . '<br />';
+     }
+      ?>
+    </p>
+  </body>
+</html>
+
+
+INDEX.PHP (objects/class)
+
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <p>
+      <?php
+      class Person {
+      final public static function say() {
+          echo "Here are my thoughts!";
+      }
+    }
+    
+    class Blogger extends Person {
+        const cats = 50;
+    }
+    
+    Blogger::say();
+    echo Blogger::cats;
+    
+      ?>
+    </p>
+  </body>
+</html>
+
+INDEX.PHP (DO/WHILE LOOP)
+
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Your own do-while</title>
+        <link type='text/css' rel='stylesheet' href='style.css'/>
+	</head>
+	<body>
+    <?php
+        //write your do-while loop below
+        $loopCond = true;
+       do {
+           echo "<p>what?</p>";
+           $loopCond = false;
+       } while ($loopCond);
+       echo "<p>You heard me.</p>";
+    ?>
+    </body>
+</html>

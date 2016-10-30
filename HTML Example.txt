@@ -1,0 +1,161 @@
+Jeannine Jacobs
+HTML Example
+Codecademy.com
+
+INDEX.HTML
+
+<!DOCTYPE html>
+<head>
+<style>
+    h1 {
+        font-size: 75px;
+        font-family: Garamond;
+    }
+    body {
+        text-align: center;
+        background: url("https://lh6.googleusercontent.com/-uekdNAJiRYE/Ui8-_Alp8fI/AAAAAAAABeY/mZaE-n-8KSA/w779-h584-no/2013-08-31-155029.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: black;
+        font-family: Garamond;
+        text-align:justify;
+        font-size: 30px;
+    }
+#header {
+	text-align: center;
+	color: white;
+}
+
+div.sectionTitle {
+    color: black;
+    font-family: Garamond;
+    font-size: 34px;
+    text-align: center;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+p {
+    font-size: 30px;
+    }
+    
+div.transbox
+  {
+  width:1400px;
+  height:3250px;
+  margin:30px 50px;
+  background-color:#ffffff;
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+  padding: 20px;
+  }
+
+</style>
+</head>
+<body>
+
+<!-- Header with name an address -->
+<div id="header">
+	<h1>Jeannine Jacobs</h1>
+<h3>3060 Shafer Street, Schenectady, NY 12304<br>
+518-588-4343 ~ <a href="mailto:jeanninejacobs@gmail.com">jeanninejacobs@gmail.com</a></h3></div>
+
+<!-- Start Transparent box -->
+<div class="transbox">
+
+<div class="sectionTitle">I am seeking a position as a computer programmer</div>
+<hr>
+
+<p> I am currently looking to secure employment with a Capital Region company that will be a creative outlet for my talents as well as allow me to use my skills to benefit the company, the client and my professional growth. My extensive customer relations skills set me apart from other programmers because I am able to work directly with clients at the idea and technical levels.<br><br>
+
+My background in the Healthcare field has allowed me to become very skilled at working with people, one on one, to clarify needs or problems, then educate and support them through to a working resolution. I will bring these skills with me as I transition to working full-time as a computer programmer.<br><br>
+
+I have recently relocated to Upstate NY with my husband, a United States Marine Corps Veteran, now employed as a Crew Chief and helicopter mechanic for the New York State Police, and our four awesome children.
+</p>
+
+<div class="sectionTitle">Summery of Experience</div>
+<hr>
+
+<p><strong>Website Design</strong> (2002-Present)<br>
+Development and maintenance of business, non-profit and personal websites:  
+    <ul>
+        <li><a href"http://uuschenectady.org/">Unitarian Universalist Society of Schenectady</a> - Website Administrator (2013-Present).</li>
+        <li><a href"http://www.capitalareabreastfeedingsupport.com">Capital Area Breastfeeding Support</a> - Complete website for my Private Practice Lactation Consultation business.  (2011-Present).</li>
+        <li>Family Life Center - Built complete website for their local community-based facility that offers education and support for women during their childbearing years.</li>
+        <li>BirthNet - Assisted this organization with a major fundraiser.  Created and updated the webpage for their production of “Birth” a play by Karen Brody.</li>
+        <li>Complete websites for my personal small businesses: 
+            <ul>
+            <li>RoyalArtisan.com (hand crafted, quilted bags, 2004)</li>
+            <li>NourishAChild.org (breastfeeding classes and support, 2006)</li>
+            <li>LactationAcademy.com (professional classes/workshops and lactation consultations, 2008)
+            </ul></li></ul>
+Programming/Languages: HTML, CSS, PHP, Python, Ruby, jQuery<br>
+Operating Systems: Windows 7/Vista, MAC, LINIX
+</p>
+
+<p><strong>Lactation Consultant and Breastfeeding Counselor</strong> (October 2003 – Present)<br>
+Schenectady, New York<br>
+I have worked my way up from a peer-counselor with the Federal Women Infant and Children’s nutritional program to operating my own private practice as an International Board Certified Lactation Consultant.   I have both volunteered for international non-profit organizations as well as worked in a clinical setting.  My experience includes:
+<ul>
+    <li>Working directly with mothers and infants to facilitate breastfeeding</li>
+    <li>Phone / e-mail support</li>
+    <li>Developing and teaching classes</li>
+    <li>Facilitating support meetings</li>
+    <li>Facilitating training classes for nurses and other health care professionals</li>
+    <li>Developing informational handouts for outreach programs</li>
+    <li>Revising and updating the CAPPA Manual for Certified Lactation Educators</li>
+    <li>Writing and publishing newsletters</li></ul>
+</p>
+
+<p><strong>La Leche League</strong> (Oct 2003 – April 2010)
+<ul>
+<li>Received extensive training as a Breastfeeding Counselor.  Worked with pregnant and breastfeeding mothers both in a group setting and on an individual level, educating and supporting them to breastfeed successfully.  Involved in the management of group to include public relations, organizing meetings and fundraisers.</li>
+<li>Volunteer on national breastfeeding helpline.</li>
+<li>Member of the World Breastfeeding Week Grant Committee.  Work with other members of committee to evaluate, distribute and follow up requests for grant money to complete community service projects throughout the United States.</li>
+</ul>
+</p>
+
+<p><strong>Childbirth and Postpartum Professional Association</strong> (Nov 2007 – July 2008)
+<ul>
+<li>Executive Assistant to the Executive Director of the CAPPA.</li>
+</ul>
+</p>
+
+<p><strong>The Committee on Women and Art</strong> (August 1999 - May 2002)
+<ul>
+<li>Participated in the organization of our annual Matrilineage Symposium for three years.  Duties included scheduling events, leading weekly meetings, liaison between Student Government and our group, fundraising, budget/finances, booking guests, and PR.</li>
+</ul>
+</p>
+
+<div class="sectionTitle">Education & Certifications</div>
+<hr>
+
+<p>
+<b>Information Systems and Internet Security</b> (January 2014 - Present)<br>
+Schenectady County Community College<br>
+Schenectady, New York<br><br>
+
+<b>Coding Classes</b> (October 2013 - Present)<br>
+Codecademy.com<br>
+Schenectady, New York<br><br>
+
+<b>International Board Certified Lactation Consultant</b> (October 2010)<br>
+International Board of Lactation Consultant Examiners<br>
+Falls Church, Virginia<br><br>
+
+<b>Certified Lactation Counselor</b> (June 2009)<br>
+Academy of Lactation Policy and Practice<br>
+Schenectady, New York<br><br>
+
+<b>Certified Lactation Educator</b> (October 2006)<br>
+Childbirth and Postpartum Professional Association<br>
+New Paltz, New York<br><br>
+
+<b>B.A. Women’s Studies</b> (August 2002)<br>
+Syracuse University, Syracuse, New York<br>
+<i>Alpha Lambda Delta, National Honors Society</i>
+</p>
+
+    
+</body>
